@@ -6,7 +6,7 @@ try:
     pdf = fitz.open(pdf_path)
 except FileNotFoundError:
     print("File not found")
-# Iterate over the pages starting from the 6th page
+# Iterate over the pages starting from the 1st page
 for i, page in enumerate(pdf):
     try:
         # Render the page as a JPEG image
